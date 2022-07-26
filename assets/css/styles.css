@@ -1,9 +1,38 @@
+.navbar {
+  background-color: rgb(227, 227, 227) !important;
+ }
+
+ .nav-link {
+  color: black !important;
+ }
+
+ .correo {
+  width: 350px;
+  border-radius: 10px;
+
+ }
+
+ .terminos {
+  text-decoration: underline;
+ }
+
 
 .logo {
     width: 5rem;
     height: 3rem;
 }
 
+.Jumbotron-imagen {
+  width: 950px;
+  height:500px;
+}
+
+.marcas {
+  width: 50%;
+  height:50%;
+  max-width: 50%;
+  max-height: 50%;
+}
 .button-login {
     background-color: #111827;
     border: 1px solid transparent;
@@ -47,4 +76,19 @@
     .button-login {
       padding: .75rem 1.5rem;
     }
+
+    .Jumbotron-imagen {
+      width: 700px;
+      height:420px;
+    }
+
   }
+
+  @media (min-width: 600px) {
+       .Jumbotron-imagen {
+      width: 400px;
+      height:220px;
+    }
+
+  }
+ 
