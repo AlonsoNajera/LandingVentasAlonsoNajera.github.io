@@ -11,11 +11,7 @@
     --weight3: 600;
   }
   
-  body {
-    font-size: 15px;
-    font-family: "Poppins", sans-serif;
-    background-color: var(--veryLightGray);
-  }
+
   
   .attribution {
     font-size: 11px;

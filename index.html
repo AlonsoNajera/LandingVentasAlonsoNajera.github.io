@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="assets/css/card.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
 
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -49,21 +50,16 @@
         <div class="collapse navbar-collapse" id="navbarsExample05">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
+     
             <li class="nav-item">
-              <a class="nav-link" href="#">¿Quienes Somos?</a>
+                <a class="nav-link" href="#catalogo">Catalogo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Vision/Mision</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="">Catalogo</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
           <div class="form-inline my-2 my-md-0">
@@ -112,8 +108,10 @@
         </div>
       </div>
     </div>
+
+    
   </div>
-  <article>
+  <article id="catalogo">
   <div class="titulo">
   <h1>VENTA Y REPARACIONES DE CELULARES</h1>
   </div>
@@ -145,7 +143,41 @@
     </div>
   </div>
 </article>
-  <!--ESTO ES EL MODEL DEL INICIO DE SESION-->
+<div id="contacto">
+<form class="form" >
+  <h2>CONTACTANOS</h2>
+  <p class="p" type="Name:">
+    <input class="input" placeholder="Escribe tu nombre..."></input></p>
+  <p class="p"  type="Email:">
+    <input class="input"  placeholder="Correo Electronico"></input></p>
+  <p class="p"  type="Message:">
+    <input class="input"  placeholder="Mensaje...."></input></p>
+  <button class="buttonEnviar" >Enviar Mensaje</button>
+</div>
+</form>
+ 
+    <footer class="footer">
+      <div class="contain">
+        <div class="col">
+          <h1>Menu</h1>
+          <ul>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="#catalogo">Catalogo</a> </li>
+            <li><a href="#Contacto">Contacto</a> </li>
+          </ul>
+        </div>
+        <div class="col social">
+          <h1>Redes Sociales</h1>
+          <ul>
+            <li><img src="assets/images/Facebook.png" width="32" style="width: 32px;"></li>
+            <li><img src="assets/images/instagram.png" width="32" style="width: 32px;"></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </footer>
+
+     <!--ESTO ES EL MODEL DEL INICIO DE SESION-->
   <div class="contenedor">
 
 		<div class="overlay" id="overlay">
@@ -191,28 +223,6 @@
 			</div>
 		</div>
 	  </div>
-    <footer class="footer">
-      <div class="contain">
-        <div class="col">
-          <h1>Menu</h1>
-          <ul>
-            <li>Home</li>
-            <li>¿Quienes Somos?</li>
-            <li>Mision/Vision</li>
-            <li>Catalogo</li>
-            <li>Contacto</li>
-          </ul>
-        </div>
-        <div class="col social">
-          <h1>Redes Sociales</h1>
-          <ul>
-            <li><img src="assets/images/Facebook.png" width="32" style="width: 32px;"></li>
-            <li><img src="assets/images/instagram.png" width="32" style="width: 32px;"></li>
-          </ul>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </footer>
 
   </body>
 </html>

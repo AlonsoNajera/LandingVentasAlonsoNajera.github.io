@@ -3,6 +3,7 @@
     position: relative;
     height: auto;
     background-color: #395B64;
+  
   }
   .footer .col {
     width: 190px;
@@ -20,7 +21,7 @@
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: rgba(255, 255, 255, 0.2);
+    color:white;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.25em;
@@ -30,8 +31,8 @@
     margin: 0;
     padding: 0;
   }
-  .footer .col ul li {
-    color: #999999;
+  .footer .col ul li a {
+    color: white;
     font-size: 14px;
     font-family: inherit;
     font-weight: bold;
