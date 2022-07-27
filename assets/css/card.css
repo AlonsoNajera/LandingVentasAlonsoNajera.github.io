@@ -64,8 +64,10 @@
     margin: 20px;
   }
   
-  img {
+  .img {
     float: right;
+    width: 150px;
+    height: 150px;
   }
   
   @media (max-width: 450px) {

@@ -16,8 +16,11 @@
   text-decoration: underline;
  }
 
-
+.titulo {
+  text-align: center;
+}
 .logo {
+
     width: 5rem;
     height: 3rem;
 }
@@ -30,8 +33,7 @@
 .marcas {
   width: 50%;
   height:50%;
-  max-width: 50%;
-  max-height: 50%;
+ 
 }
 .button-login {
     background-color: #111827;
@@ -72,6 +74,11 @@
     display: block;
   }
   
+.footer {
+  background-color: black;
+}
+
+
   @media (min-width: 768px) {
     .button-login {
       padding: .75rem 1.5rem;
