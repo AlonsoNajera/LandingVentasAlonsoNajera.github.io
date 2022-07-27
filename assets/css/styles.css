@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgb(227, 227, 227) !important;
+  background-color: #E7F6F2 !important;
  }
 
  .nav-link {
@@ -24,7 +24,13 @@
     width: 5rem;
     height: 3rem;
 }
+.jumbotron {
+  background-color:#395B64;
+}
 
+.display-4 {
+  color: #FFFFFF !important;
+}
 .Jumbotron-imagen {
   width: 950px;
   height:500px;
@@ -33,7 +39,7 @@
 .marcas {
   width: 50%;
   height:50%;
- 
+
 }
 .button-login {
     background-color: #111827;
@@ -59,21 +65,21 @@
     touch-action: manipulation;
     width: auto;
   }
-  
+
   .button-login:hover {
     background-color: #374151;
   }
-  
+
   .button-login:focus {
     box-shadow: none;
     outline: 2px solid transparent;
     outline-offset: 2px;
   }
-  
+
   .open {
     display: block;
   }
-  
+
 .footer {
   background-color: black;
 }
@@ -91,11 +97,4 @@
 
   }
 
-  @media (min-width: 600px) {
-       .Jumbotron-imagen {
-      width: 400px;
-      height:220px;
-    }
-
-  }
  
