@@ -1,9 +1,11 @@
 
 .contenedor {
 	width: 90%;
-	max-width: 1000px;
-	margin: 20px auto;
+	max-width: 100px;
+	margin: 50px auto;
 }
+
+
 
 .contenedor article {
 	line-height: 28px;
@@ -39,9 +41,7 @@
 	background: rgba(94,125,227, .9);
 }
 
-/* ------------------------- */
-/* POPUP */
-/* ------------------------- */
+
 
 .overlay {
 	background: rgba(0,0,0,.3);

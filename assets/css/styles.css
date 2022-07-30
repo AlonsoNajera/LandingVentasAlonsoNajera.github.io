@@ -24,6 +24,9 @@
     width: 5rem;
     height: 3rem;
 }
+.navbar-toggler-icon {
+  background-color: black !important;
+}
 .jumbotron {
   background-color:#395B64;
 }
@@ -98,4 +101,19 @@
 
   }
 
+  @media (max-width: 950px) and (min-width: 450px) {
+       .Jumbotron-imagen {
+      width: 400px;
+      height:200px;
+    }
+  }
+
+  @media (max-width: 1516px) {
+    .Jumbotron-imagen {
+   width: 400px;
+   height:200px;
+ }
+}
+
+  
  

@@ -56,11 +56,15 @@
   .clearfix {
     clear: both;
   }
+
+
   @media only screen and (min-width: 1280px) {
     .contain {
       width: 1200px;
       margin: 0 auto;
     }
+
+
   }
   @media only screen and (max-width: 1139px) {
     .contain .social {
@@ -92,6 +96,8 @@
     .footer .col ul li {
       font-size: 13px;
     }
+
+   
   }
   @media only screen and (max-width: 340px) {
     .footer .col {
