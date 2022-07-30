@@ -16,4 +16,7 @@ ultimo se encuentra el Footer.. con accesos a redes sociales y un menú..
 
 El proyecto es reponsivo realizado con @mediaquery.
 
+Link para entrar al proyecto
+https://alonsonajera.github.io/LandingVentasAlonsoNajera.github.io/
+
 ![Captura de pantalla Commit](https://user-images.githubusercontent.com/108036725/181865758-2b811d2f-eb0b-42c2-a061-bebae7cad03f.png)
